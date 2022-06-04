@@ -1,0 +1,180 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+   /* cores da página
+    background-color: #AD8B73 ;
+    background-color: #CEAB93;
+    background-color: #E3CAA5;
+    background-color: #FFFBE9;
+    */
+
+    body{
+        width: 100%;
+        height: 100vh;
+        margin: 0%;
+       
+    }
+
+    #bordasuperior{
+        width: 100%;
+        display: flex;
+        background-color:#511C17;
+        height: 4em;   
+        font-family: 'Koulen&family';
+        position: sticky;
+        top: 0px;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .menu{
+        display: flex;
+        list-style: none;
+    }
+
+    .menu li a{
+        color: #AD8B73;
+        text-decoration: none;
+        display: block;
+        margin: 2% 5%;
+        margin-left: 30px;
+        padding-right: 15px;
+    }
+    
+    .menu li a:hover{
+        color: #d3b49e;
+    }
+
+    #bordasuperior img{
+        padding-left:  4px;
+        height: 3.7em;
+        width: 5em;
+        padding-top: 4px;
+
+    }
+
+    
+
+    #tela1{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('imagens.css/principal.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 666px;
+        max-width: 1366px;
+        max-height: 666px;
+        padding-top: 10%;
+        text-align: center;
+        font-family: 'Koulen&family';
+        color: #511C17;
+    }
+
+    
+
+    
+
+    
+
+    
+
+    #tela1 h1{
+        margin-bottom: 0%;
+        margin-top: 2px;
+        font-size: 1.5em;
+        font-family: 'Koulen&family';
+        color: #511C17;
+          
+    }
+
+    #tela1 p{
+        font-size: 1em;
+        font-family: 'Dancing Script';
+        font-weight: bold;
+    
+    }
+
+    @media (min-width: 800px) {
+        #tela1 h1 {
+          
+        margin-bottom: 0%;
+        font-size: 3.2em;
+        font-family: 'Koulen&family';
+        color: #511C17
+        }
+      }
+
+      @media (min-width: 800px) {
+        #tela1 p {
+          
+        font-size: 1.5em;
+        font-family: 'Dancing Script';
+        font-weight: bold;
+        }
+      }
+
+
+      
+
+   
+      #texto1{
+        margin-left: 60px;
+        margin-top: 50px;
+        margin-right: 40px; 
+        color: #511C17;
+    }
+    #texto1 h1{
+       
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Dancing Script';
+        font-weight: bold;  
+    }
+    #tela2{
+        opacity: 88%;
+        padding-top: 1%;
+        background-color: #AD8B73;
+        height: 400px;
+        display: flex;
+        
+    }
+    #tela2 img{
+        border-radius: 15px;
+        margin-top: 65px;
+        margin-left: 40px;
+        width: 350px;
+        height: 250px;
+        box-shadow: 5px 5px 10px  rgb(77, 35, 35);
+        
+    }
+
+    .texto1{
+        margin-top: 0%;
+        
+        
+    }
+    #tela3{
+        padding-top: 1%;
+        background-color: #470906;
+        height: 600px;
+        
+    }
+    #tela4{
+        padding-top: 1%;
+        background-color: #9d897b;
+        height: 600px;
+        margin: 0;
+        
+    }
+    footer{
+        width: 100%;
+        background-color:#470906;
+        font-family: 'Koulen&family';
+        color: #AD8B73;
+        padding-top: 28px;
+        text-align: center;
+        height: 3em;   
+    }
