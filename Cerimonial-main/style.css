@@ -34,6 +34,7 @@
     .menu{
         display: flex;
         list-style: none;
+        flex-wrap: wrap;
     }
 
     .menu li a{
@@ -43,6 +44,7 @@
         margin: 2% 5%;
         margin-left: 30px;
         padding-right: 15px;
+        
     }
     
     .menu li a:hover{
@@ -71,6 +73,7 @@
         text-align: center;
         font-family: 'Koulen&family';
         color: #511C17;
+        justify-content: space-between;
     }
 
     
@@ -108,6 +111,8 @@
         font-weight: bold;
         }
       }
+
+      
 
 
     
@@ -179,6 +184,24 @@
             
         }
       }
+
+      button{
+        background-color: #511C17;
+        border-radius: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        color: #826855;
+        box-shadow: #470906;
+        border: none;
+        margin-bottom: 3%;
+    }
+
+    button a{
+        text-decoration: none;
+        color:#AD8B73;
+        font-weight: bold;
+        font-family: 'Koulen&family';
+    }
 
 
     .texto1{
@@ -365,7 +388,7 @@
             justify-content: space-between;
             flex-direction: row;
             max-width:  1600px;
-            max-height: 666px; 
+            max-height: 666px;
 
      } 
   

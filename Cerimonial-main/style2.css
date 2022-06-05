@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+   /* cores da página
+    background-color: #AD8B73 ;
+    background-color: #CEAB93;
+    background-color: #E3CAA5;
+    background-color: #FFFBE9;
+    */
+
+    body{
+        width: 100%;
+        height: 100vh;
+        margin: 0%;
+       
+    }
+
+    #bordasuperior{
+        width: 100%;
+        display: flex;
+        background-color:#511C17;
+        height: 4em;   
+        font-family: 'Koulen&family';
+        position: sticky;
+        top: 0px;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .menu{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+
+    .menu li a{
+        color: #AD8B73;
+        text-decoration: none;
+        display: block;
+        margin: 2% 5%;
+        margin-left: 30px;
+        padding-right: 15px;
+        
+    }
+    
+    .menu li a:hover{
+        color: #d3b49e;
+    }
+
+    #bordasuperior img{
+        padding-left:  4px;
+        height: 3.7em;
+        width: 5em;
+        padding-top: 4px;
+
+    }
+
+    
+
+    #tela1{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('imagens.css/pexels-i̇brahim-hakkı-uçman-3342697.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+        max-width: 1600px;
+        max-height: 666px;
+        padding-top: 10%;
+        text-align: center;
+        font-family: 'Koulen&family';
+        color: #511C17;
+        justify-content: space-between;
+    }
+
+    
+    #tela1 h1{
+        margin-bottom: 0%;
+        margin:0;
+        font-size: 1.2em;
+        font-family: 'Koulen&family';
+        color: #511C17;
+        
+          
+    }
+
+     #tela1 p{
+        font-size: 1em;
+        font-family: 'Dancing Script';
+        font-weight: bold;
+        color:#511C17;
+        text-align: center;
+    
+    }
+
+    @media (min-width: 800px) {
+        #tela1 h1 {
+          
+        margin-bottom: 0%;
+        font-size: 3.2em;
+        font-family: 'Koulen&family';
+        color: #511C17
+        
+        }
+      }
+
+      @media (min-width: 800px) {
+        #tela1 p {
+          
+        font-size: 1.5em;
+        font-family: 'Dancing Script';
+        font-weight: bold;
+        color: #511C17;
+        }
+      }
+
+      #text{
+          
+          border: 3px solid  rgb(255, 251, 251);
+          padding: 5%;
+          background-color: #511C17;
+          text-align:left;
+          justify-content: space-between;
+      }
+
+      #text h2{
+          
+        font-family: 'Dancing Script';
+        color: #AD8B73;
+      }
+
+     #text p{
+         
+        font-family: 'Koulen&family';
+        color: #AD8B73;
+     }
+
+     #equipe{ 
+        border: 3px solid  rgb(255, 251, 251);
+        padding-top: 1.5%;
+        background-color: #9d897b;
+        height: 600px;
+        margin: 0;
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+        max-width:  1600px;
+        max-height: 666px; 
+        align-items: center;
+        padding-left: 10%;
+     }
+
+     #desc h2{
+        border-bottom: 2px solid  rgb(255, 251, 251);
+        font-size: 1.5em;
+        font-family: 'Dancing Script';
+        color: #511C17;
+        margin-left: 1.5%;
+     }
+
+     #desc img{
+
+        width: 350px;
+        height: 495px;
+        border-radius: 10px;
+
+     }
+
+     #redesocial{
+        margin-top: 2%;
+        margin-right: 10%;
+        position: absolute;
+        
+    
+    }
+
+    @media (min-width:800px){
+        #redesocial{
+            margin-top: 20%;
+            margin-left: 68%;
+            position: absolute;
+            
+        
+        }
+
+    }
+    #redesocial a{
+      display: inline-flex;
+      width: 50px;
+      height: 50px;  
+      background-color: #511C17;
+      color: aliceblue;
+      margin: 0 6px;
+      border-radius: 50px;
+      justify-content: center;
+      align-items: center;
+      transition: 0.4s;
+      font-size: 20px;
+    }
+    #redesocial a:hover{
+        background-color:  #826855;
+    }
+    #redesocial a:hover > i{
+       transform: scale(1.6) rotate(25deg);
+    }
+
+    
+    footer{
+        width: 100%;
+        background-color:#470906;
+        font-family: 'Koulen&family';
+        color: #AD8B73;
+        padding-top: 28px;
+        text-align: center;
+        height: 3em;   
+    }
